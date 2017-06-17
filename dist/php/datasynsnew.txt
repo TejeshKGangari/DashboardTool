@@ -1,0 +1,427 @@
+
+
+
+<?php
+
+
+
+$action = $_REQUEST['action'];
+//$action = "getrunsdata";
+$con=mysqli_connect("localhost","UPSDASHBOARD","BPAVSuctKJMtEV7G","upsdashboard");
+//echo $action;
+// Check connection
+if (mysqli_connect_errno())
+ {
+ echo "Failed to connect to MySQL: " . mysqli_connect_error();
+ }
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+$projectid = $_POST['id'];	
+
+
+//$username = "hdc4crv";
+//$password = "password";
+//QC connect
+
+$qc = curl_init();
+$ckfile = tempnam ("/tmp", "CURLCOOKIE");
+
+$result= mysqli_query($con,"select * FROM projectdetails where id='".$projectid."'")or die(mysqli_connect_errno());
+$row=mysqli_fetch_array($result);
+
+$portfolio_name =  $row['portfolio_name'];
+$account_name=$row['account_name'];
+//echo $projectid;
+
+
+//echo $action;
+if($action == 'getdesigndata')
+{
+
+
+	
+	//$projectid='0';
+
+	mysqli_query($con,"DELETE FROM qctestinstances where projectid = '".$projectid."'")or die(mysqli_connect_errno());
+
+$result = mysqli_query($con,"select * from projectdetails where id ='".$projectid."'")or die(mysqli_connect_errno());
+$row = mysqli_fetch_array($result);
+
+$arr = array();
+
+
+
+$arr = explode(',',$row['designfield4']);
+//print_r($arr);
+//for($i=0;$i<sizeof($arr);$i++)
+foreach($arr as $key=>$value)
+{
+//echo $value;
+
+	//curl_setopt($qc, CURLOPT_URL, $row['designfield5']."/rest/domains/".$row['designfield1']."/projects/".$row['designfield2']."/test-instances?query={cycle-id[".$row['designfield3']."]}"); 
+curl_setopt($qc, CURLOPT_URL, $row['designfield5']."/rest/domains/".$row['designfield1']."/projects/".$row['designfield2']."/test-instances?query={cycle-id[".$value."]}"); 
+
+	$json = curl_exec($qc);
+	$array=json_decode($json, true); 
+	//print_r ($array);
+	if($array!='')
+{
+
+
+	$query = "INSERT INTO `qctestinstances`(`projectid`, `testinstance`, `eparams`, `planschedulingtime`, `planschedulingdate`, `id`, `verstamp`, `osconfig`, `hostname`, `testconfigid`, `dataobj`, `haslinkage`, `pinnedbaseline`, `execdate`, `cycleid`, `cycle`, `assignrcyc`, `exectime`, `lastmodified`, `status`, `iterations`, `actualtester`, `execeventhandle`, `attachment`, `testid`, `subtypeid`, `testorder`, `owner`, `bptachangeawarness`,`portfolio_name`,`account_name`) VALUES ";
+	$where ="";
+
+for ($i=0;$i<count($array['entities']);$i++)
+{
+	print_r ($array);
+	if($where !="")
+	{
+		$where .=",";
+	}
+	
+/*			if(isset($array['entities'][$i]['Fields'][0]['values'][0]['value']))
+		{
+				$testinstance = $array['entities'][$i]['Fields'][0]['values'][0]['value'];
+		}
+		else
+		{
+				$testinstance = "";
+		}
+			if(isset($array['entities'][$i]['Fields'][1]['values'][0]['value']))
+		{
+				$eparams = $array['entities'][$i]['Fields'][1]['values'][0]['value'];
+		}
+		else
+		{
+				$eparams = "";
+		}	
+
+			if(isset($array['entities'][$i]['Fields'][2]['values'][0]['value']))
+		{
+				$planschedulingtime = $array['entities'][$i]['Fields'][2]['values'][0]['value'];
+		}
+		else
+		{
+				$planschedulingtime = "";
+		}	
+			if(isset($array['entities'][$i]['Fields'][3]['values'][0]['value']))
+		{
+				$planschedulingdate = $array['entities'][$i]['Fields'][3]['values'][0]['value'];
+		}
+		else
+		{
+				$planschedulingdate = "";
+		}	
+		if(isset($array['entities'][$i]['Fields'][4]['values'][0]['value']))
+		{
+				$id = $array['entities'][$i]['Fields'][4]['values'][0]['value'];
+		}
+		else
+		{
+				$id = "";
+		}
+if(isset($array['entities'][$i]['Fields'][5]['values'][0]['value']))
+		{
+				$verstamp = $array['entities'][$i]['Fields'][5]['values'][0]['value'];
+		}
+		else
+		{
+				$verstamp = "";
+		}			
+
+if(isset($array['entities'][$i]['Fields'][6]['values'][0]['value']))
+		{
+				$osconfig = $array['entities'][$i]['Fields'][6]['values'][0]['value'];
+		}
+		else
+		{
+				$osconfig = "";
+		}			
+if(isset($array['entities'][$i]['Fields'][7]['values'][0]['value']))
+		{
+				$hostname = $array['entities'][$i]['Fields'][7]['values'][0]['value'];
+		}
+		else
+		{
+				$hostname = "";
+		}			
+		if(isset($array['entities'][$i]['Fields'][8]['values'][0]['value']))
+		{
+				$testconfigid = $array['entities'][$i]['Fields'][8]['values'][0]['value'];
+		}
+		else
+		{
+				$testconfigid = "";
+		}		
+if(isset($array['entities'][$i]['Fields'][9]['values'][0]['value']))
+		{
+				$dataobj = $array['entities'][$i]['Fields'][9]['values'][0]['value'];
+		}
+		else
+		{
+				$dataobj = "";
+		}				
+if(isset($array['entities'][$i]['Fields'][10]['values'][0]['value']))
+		{
+				$haslinkage = $array['entities'][$i]['Fields'][10]['values'][0]['value'];
+		}
+		else
+		{
+				$haslinkage = "";
+		}		
+if(isset($array['entities'][$i]['Fields'][11]['values'][0]['value']))
+		{
+				$pinnedbaseline = $array['entities'][$i]['Fields'][11]['values'][0]['value'];
+		}
+		else
+		{
+				$pinnedbaseline = "";
+		}					
+		if(isset($array['entities'][$i]['Fields'][12]['values'][0]['value']))
+		{
+				$execdate = $array['entities'][$i]['Fields'][12]['values'][0]['value'];
+		}
+		else
+		{
+				$execdate = "";
+		}		
+if(isset($array['entities'][$i]['Fields'][13]['values'][0]['value']))
+		{
+				$cycleid = $array['entities'][$i]['Fields'][13]['values'][0]['value'];
+		}
+		else
+		{
+				$cycleid = "";
+		}					
+		if(isset($array['entities'][$i]['Fields'][14]['values'][0]['value']))
+		{
+				$cycle = $array['entities'][$i]['Fields'][14]['values'][0]['value'];
+		}
+		else
+		{
+				$cycle = "";
+		}	
+if(isset($array['entities'][$i]['Fields'][15]['values'][0]['value']))
+		{
+				$assignrcyc = $array['entities'][$i]['Fields'][15]['values'][0]['value'];
+		}
+		else
+		{
+				$assignrcyc = "";
+		}
+if(isset($array['entities'][$i]['Fields'][16]['values'][0]['value']))
+		{
+				$exectime = $array['entities'][$i]['Fields'][16]['values'][0]['value'];
+		}
+		else
+		{
+				$exectime = "";
+		}					
+if(isset($array['entities'][$i]['Fields'][17]['values'][0]['value']))
+		{
+				$lastmodified = $array['entities'][$i]['Fields'][17]['values'][0]['value'];
+		}
+		else
+		{
+				$lastmodified = "";
+		}		
+if(isset($array['entities'][$i]['Fields'][18]['values'][0]['value']))
+		{
+				$status = $array['entities'][$i]['Fields'][18]['values'][0]['value'];
+		}
+		else
+		{
+				$status = "";
+		}			
+if(isset($array['entities'][$i]['Fields'][19]['values'][0]['value']))
+		{
+				$iterations = $array['entities'][$i]['Fields'][19]['values'][0]['value'];
+		}
+		else
+		{
+				$iterations = "";
+		}			
+if(isset($array['entities'][$i]['Fields'][20]['values'][0]['value']))
+		{
+				$actualtester = $array['entities'][$i]['Fields'][20]['values'][0]['value'];
+		}
+		else
+		{
+				$actualtester = "";
+		}					
+if(isset($array['entities'][$i]['Fields'][21]['values'][0]['value']))
+		{
+				$execeventhandle = $array['entities'][$i]['Fields'][21]['values'][0]['value'];
+		}
+		else
+		{
+				$execeventhandle = "";
+		}			
+if(isset($array['entities'][$i]['Fields'][22]['values'][0]['value']))
+		{
+				$attachment = $array['entities'][$i]['Fields'][22]['values'][0]['value'];
+		}
+		else
+		{
+				$attachment = "";
+		}					
+if(isset($array['entities'][$i]['Fields'][23]['values'][0]['value']))
+		{
+				$testid = $array['entities'][$i]['Fields'][23]['values'][0]['value'];
+		}
+		else
+		{
+				$testid = "";
+		}	
+if(isset($array['entities'][$i]['Fields'][24]['values'][0]['value']))
+		{
+				$subtypeid = $array['entities'][$i]['Fields'][24]['values'][0]['value'];
+		}
+		else
+		{
+				$subtypeid = "";
+		}		
+if(isset($array['entities'][$i]['Fields'][25]['values'][0]['value']))
+		{
+				$testorder = $array['entities'][$i]['Fields'][25]['values'][0]['value'];
+		}
+		else
+		{
+				$testorder = "";
+		}	
+if(isset($array['entities'][$i]['Fields'][26]['values'][0]['value']))
+		{
+				$owner = $array['entities'][$i]['Fields'][26]['values'][0]['value'];
+		}
+		else
+		{
+				$owner = "";
+		}					
+if(isset($array['entities'][$i]['Fields'][27]['values'][0]['value']))
+		{
+				$bptachangeawareness = $array['entities'][$i]['Fields'][27]['values'][0]['value'];
+		}
+		else
+		{
+				$bptachangeawareness = "";
+		} */
+$testinstance = "";
+$eparams = "";
+$planschedulingdate = "";
+$planschedulingtime = "";
+$id = "";
+$verstamp = "";
+$osconfig = "";
+$hostname = "";
+$testconfigid = "";
+$dataobj = "";
+$haslinkage = "";
+$pinnedbaseline = "";
+$execdate = "";
+$cycleid = "";
+$cycle = "";
+$lastmodified = "";
+$assignrcyc = "";
+$exectime = "";
+$status = "";
+$iterations = "";
+$execeventhandle = "";
+$actualtester = "";
+$attachment = "";
+$testid = "";
+$subtypeid = "";
+$testorder = "";
+$owner = "";
+$bptachangeawareness = "";
+
+for ($j=0;$j<count($array['entities'][$i]['Fields']);$j++)
+	{
+	if(isset($array['entities'][$i]['Fields'][$j]['values'][0]['value'])) {
+	$fieldname = $array['entities'][$i]['Fields'][$j]['Name'];
+		if($fieldname == 'test-instance'){
+			$testinstance = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'eparams'){
+			$eparams = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'plan-scheduling-date'){
+			$planschedulingdate = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'plan-scheduling-time'){
+			$planschedulingtime = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'id'){
+			$id = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'ver-stamp') {
+			$verstamp = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'os-config') {
+			$osconfig = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'host-name') {
+			$hostname = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'test-config-id') {
+			$testconfigid = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'data-obj') {
+			$dataobj = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'has-linkage') {
+			$haslinkage = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'pinned-baseline') {
+			$pinnedbaseline = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'exec-date') {
+			$execdate = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'cycle-id') {
+			$cycleid = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'cycle') {
+			$cycle = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'last-modified') {
+			$lastmodified = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'assign-rcyc') {
+			$assignrcyc = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'exec-time') {
+			$exectime = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'status') {
+			$status = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'iterations') {
+			$iterations = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'exec-event-handle') {
+			$execeventhandle = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'actual-tester') {
+			$actualtester = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'attachment') {
+			$attachment = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'test-id') {
+			$testid = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'subtype-id') {
+			$subtypeid = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'test-order') {
+			$testorder = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'owner') {
+			$owner = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} elseif($fieldname == 'bpta-change-awareness') {
+			$bptachangeawareness = $array['entities'][$i]['Fields'][$j]['values'][0]['value'];
+		} 
+	}
+}
+$where .="('".$projectid."','".$testinstance."','".$eparams."','".$planschedulingtime."','".$planschedulingdate."','".$id."','".$verstamp."','".$osconfig."','".$hostname."','".$testconfigid."','".$dataobj."','".$haslinkage."','".$pinnedbaseline."','".$execdate."','".$cycleid."','".$cycle."','".$assignrcyc."','".$exectime."','".$lastmodified."','".$status."','".$iterations."','".$actualtester."','".$execeventhandle."','".$attachment."','".$testid."','".$subtypeid."','".$testorder."','".$owner."','".$bptachangeawareness."','".$portfolio_name."','".$account_name."')";
+		print_r($array);
+}
+$query = $query.$where;
+//echo $query;
+mysqli_query($con,$query)or die(mysqli_connect_errno());
+
+//$result= mysqli_query($con,"select * FROM projectdetails where id='".$projectid."'")or die(mysqli_connect_errno());
+//$row=mysqli_fetch_array($result);
+
+  //  logout($qc,$row['designfield5']."/authentication-point/logout");
+			
+       }
+}
+
+
+$result= mysqli_query($con,"select * FROM projectdetails where id='".$projectid."'")or die(mysqli_connect_errno());
+$row=mysqli_fetch_array($result);
+
+  logout($qc,$row['designfield5']."/authentication-point/logout");
+}
+
+
+
+
+
+?>

@@ -1,0 +1,4877 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+
+-<Entities TotalResults="24">
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>5</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1006</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>12:40:26</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 11:06:48</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>6</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>2</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1007</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>12:51:50</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 12:51:51</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>7</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>2</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1008</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>12:58:53</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 12:58:53</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>8</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1013</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>12:48:21</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 12:48:21</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>13</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>5</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1014</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>14:58:20</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 14:58:21</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>14</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>5</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>6</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1015</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>15:59:32</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 15:59:32</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>15</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>6</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>7</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1016</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-29</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>13:40:06</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-29 13:40:14</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>16</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>7</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>8</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>7</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1017</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-29</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>14:23:22</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-29 14:23:23</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>17</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>8</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>9</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>5</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1018</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-29</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>12:21:34</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-29 12:21:34</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>18</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>9</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>10</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1012</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>13:16:55</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 13:16:55</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>12</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>10</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>11</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1001</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>08:20:00</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 08:20:00</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>11</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>12</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1002</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>08:22:58</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 08:22:58</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>2</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>12</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>13</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1003</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>08:42:03</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 10:35:04</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>13</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>14</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1004</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>08:48:16</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 08:48:16</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>14</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>15</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1005</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>15:32:22</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 15:32:23</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>5</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>15</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>16</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>12</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1009</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-11-14</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>12:42:19</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-11-14 12:42:20</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>9</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>16</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>17</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1010</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-28</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>11:28:41</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-28 11:28:42</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a5634zz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>10</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>17</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>18</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>6</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1011</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2015-02-17</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>11:24:16</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2015-02-17 11:24:17</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>11</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>18</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>19</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1024</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>14:49:59</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 14:49:59</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>24</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>19</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>20</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1019</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>14:08:22</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 14:08:22</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>19</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>20</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>21</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1020</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>14:14:24</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 14:14:25</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>20</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>21</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>22</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1021</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-10-27</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>13:56:39</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-10-27 13:56:40</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>21</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>22</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>23</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>4</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1022</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-12-15</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>10:37:11</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-12-15 10:37:13</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>22</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>23</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+
+-<Entity Type="test-instance">
+
+
+-<Fields>
+
+
+-<Field Name="test-instance">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="eparams">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="plan-scheduling-time">
+
+<Value/>
+
+</Field>
+
+<Field Name="plan-scheduling-date"/>
+
+
+-<Field Name="id">
+
+<Value>24</Value>
+
+</Field>
+
+
+-<Field Name="ver-stamp">
+
+<Value>3</Value>
+
+</Field>
+
+
+-<Field Name="os-config">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="host-name">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-config-id">
+
+<Value>1023</Value>
+
+</Field>
+
+
+-<Field Name="data-obj">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="has-linkage">
+
+<Value>N</Value>
+
+</Field>
+
+
+-<Field Name="pinned-baseline">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="exec-date">
+
+<Value>2014-12-15</Value>
+
+</Field>
+
+
+-<Field Name="cycle-id">
+
+<Value>1</Value>
+
+</Field>
+
+
+-<Field Name="cycle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="assign-rcyc">
+
+<Value ReferenceValue="Functional">1001</Value>
+
+</Field>
+
+
+-<Field Name="exec-time">
+
+<Value>11:18:09</Value>
+
+</Field>
+
+
+-<Field Name="last-modified">
+
+<Value>2014-12-15 11:18:09</Value>
+
+</Field>
+
+
+-<Field Name="status">
+
+<Value>Passed</Value>
+
+</Field>
+
+
+-<Field Name="iterations">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="actual-tester">
+
+<Value>a587zzz</Value>
+
+</Field>
+
+
+-<Field Name="exec-event-handle">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="attachment">
+
+<Value/>
+
+</Field>
+
+
+-<Field Name="test-id">
+
+<Value>23</Value>
+
+</Field>
+
+
+-<Field Name="subtype-id">
+
+<Value>hp.qc.test-instance.MANUAL</Value>
+
+</Field>
+
+
+-<Field Name="test-order">
+
+<Value>24</Value>
+
+</Field>
+
+
+-<Field Name="owner">
+
+<Value>a02m7zz</Value>
+
+</Field>
+
+
+-<Field Name="bpta-change-awareness">
+
+<Value/>
+
+</Field>
+
+</Fields>
+
+<RelatedEntities/>
+
+</Entity>
+
+</Entities>

@@ -1,0 +1,17 @@
+{
+	"queryType": "flat",
+	"queryResultType": "workItem",
+	"asOf": "2016-07-18T10:50:04.453Z",
+	"columns": [{
+		"referenceName": "System.Id",
+		"name": "ID",
+		"url": "http://tfs.ups.com:8080/tfs/UpsProd/_apis/wit/fields/System.Id"
+	}],
+	"workItems": [{
+		"id": 235990,
+		"url": "http://tfs.ups.com:8080/tfs/UpsProd/_apis/wit/workItems/235990"
+	}, {
+		"id": 236291,
+		"url": "http://tfs.ups.com:8080/tfs/UpsProd/_apis/wit/workItems/236291"
+	}]
+}
